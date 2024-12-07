@@ -8,3 +8,19 @@ body {
 span.keeptogether {
   white-space: nowrap ;
 }
+
+a {
+  text-decoration: underline;
+}
+
+a:link, a:visited {
+  color: #1560BD;
+}
+
+a:hover, a:active {
+  color: #c00;
+}
+
+a img {
+  border: 0;
+}
