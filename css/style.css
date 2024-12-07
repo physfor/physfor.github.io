@@ -43,7 +43,7 @@ header.top_header .wrapper nav a{
     text-decoration: none;
 }
 header.top_header .wrapper nav a:hover{
-    color: #3b3b3be1;
+    color: #000000;
     text-decoration-style: dashed;
     text-decoration: underline;
 }
