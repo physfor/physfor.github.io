@@ -14,11 +14,11 @@ a {
 }
 
 a:link, a:visited {
-  color: #1560BD;
+  color: royalblue;
 }
 
 a:hover, a:active {
-  color: #c00;
+  color: crimson;
 }
 
 a img {
