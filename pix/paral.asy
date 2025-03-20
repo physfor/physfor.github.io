@@ -1,3 +1,6 @@
+//the image Asymptote code
+//http://asymptote.ualberta.ca/
+
 settings.render=15;
 
 import three;
