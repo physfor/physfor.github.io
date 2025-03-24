@@ -30,7 +30,7 @@ a img {
 }
 
 .cap a:link, a:visited {
-  color: black;
+  color: gray;
 }
 
 .cap a:hover, a:active {
