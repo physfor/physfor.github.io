@@ -25,18 +25,6 @@ a img {
   border: 0;
 }
 
-.cap a {
-  text-decoration: underline;
-}
-
-.cap a:link, a:visited {
-  color: gray;
-}
-
-.cap a:hover, a:active {
-  color: crimson;
-}
-
-.capa img {
-  border: 0;
+a.cap {
+    color: gray; /* Цвет ссылок */ 
 }
