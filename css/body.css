@@ -30,7 +30,7 @@ a.cap {
 }
 
 a.cap:link, a.cap:visited {
-  color: black;
+  color: gray;
 }
 
 a.cap:hover, a.cap:active {
