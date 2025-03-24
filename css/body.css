@@ -25,6 +25,6 @@ a img {
   border: 0;
 }
 
-a.cap {
+a.cap:link {
     color: gray; /* Цвет ссылок */ 
 }
