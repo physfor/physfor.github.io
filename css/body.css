@@ -25,6 +25,18 @@ a img {
   border: 0;
 }
 
-a.cap:link {
-    color: gray; /* Цвет ссылок */ 
+a.cap {
+  text-decoration: underline;
+}
+
+a.cap:link, a.cap:visited {
+  color: black;
+}
+
+a.cap:hover, a.cap:active {
+  color: crimson;
+}
+
+a.cap img {
+  border: 0;
 }
