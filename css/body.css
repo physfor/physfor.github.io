@@ -11,14 +11,14 @@ body {
   font-size: 100%;
 }
 
-<!--
+/*
 body {
   background: #fff;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   margin: 10px 20px 20px 30px;
   max-width: 1200px;
 }
--->
+*/
 
 span.keeptogether {
   white-space: nowrap ;
