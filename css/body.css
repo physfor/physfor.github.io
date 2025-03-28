@@ -43,7 +43,7 @@ a img {
 }
 
 a.cap {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a.cap:link, a.cap:visited {
@@ -51,7 +51,7 @@ a.cap:link, a.cap:visited {
 }
 
 a.cap:hover, a.cap:active {
-  color: crimson;
+  color: Brown;
 }
 
 a.cap img {
