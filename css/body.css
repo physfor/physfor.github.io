@@ -1,3 +1,5 @@
+html { overflow-y: scroll; }
+
 body {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -8,31 +10,32 @@ body {
   max-width: 100%;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   text-align: justify;
+  font-size: 120%;
 }
 
-/*
-body {
-  background: #fff;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  margin: 10px 20px 20px 30px;
-  max-width: 1200px;
+
+@media screen and (max-width: 880px) {
+  nav, main { padding:0 9px; }
 }
-*/
+
+@media screen and (max-width: 480px) {
+  .spacer { width: 4px; }
+}
 
 span.keeptogether {
   white-space: nowrap ;
 }
 
-a {
-  text-decoration: underline;
+a:link, a:visited {
+  color: Brown;
 }
 
-a:link, a:visited {
-  color: black;
-}
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   }
 
 a:hover, a:active {
-  color: crimson;
+  color: Brown;
 }
 
 a img {
