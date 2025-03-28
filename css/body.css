@@ -14,12 +14,8 @@ body {
 }
 
 
-@media screen and (max-width: 880px) {
-  nav, main { padding:0 9px; }
-}
-
-@media screen and (max-width: 480px) {
-  .spacer { width: 4px; }
+@media screen and (max-width: 800px) {
+  main { padding:0 9px; }
 }
 
 span.keeptogether {
