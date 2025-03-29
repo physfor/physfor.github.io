@@ -53,3 +53,7 @@ a.cap:hover, a.cap:active {
 a.cap img {
   border: 0;
 }
+
+.katex .base:last-child {
+  display: inline;
+}
