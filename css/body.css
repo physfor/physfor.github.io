@@ -5,13 +5,12 @@ body {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  margin: 0px auto;
+  margin: 0px auto 100px;
   width: 700px;
   max-width: 100%;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   text-align: justify;
   font-size: 130%;
-  margin-bottom: 100px;
 }
 
 
