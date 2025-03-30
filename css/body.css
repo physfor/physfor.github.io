@@ -13,10 +13,6 @@ body {
   font-size: 130%;
 }
 
-main {
-  margin-bottom: 50%;
-}
-
 @media screen and (max-width: 800px) {
   main { padding:0 9px; }
 }
