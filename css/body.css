@@ -60,3 +60,5 @@ a.cap img {
 .katex .base:last-child {
   display: inline;
 }
+
+.katex { line-height: .5 !important; }
