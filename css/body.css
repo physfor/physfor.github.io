@@ -63,8 +63,6 @@ a.cap img {
 
 .katex { line-height: .5 !important; }
 
-katex-display > .katex {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-    white-space: normal !important;
+.katex > .katex-html {
+	white-space: normal;
 }
