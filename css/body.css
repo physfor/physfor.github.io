@@ -13,12 +13,38 @@ body {
   font-size: 130%;
 }
 
+nav {
+  font-size: 120%;
+  display: flex;
+  justify-content: space-between; 
+}
+
 .bor {
 border: 1px solid Brown; padding: 9px;
 }  
 
 @media screen and (max-width: 800px) {
   main { padding:0 9px; }
+}
+
+@media all and (max-width: 500px) {
+  
+  nav {
+    flex-wrap: wrap;
+  }
+  
+  nav > div {
+    flex-basis: 50%;
+  }
+  
+  nav .ka {
+    text-align: right;
+  }
+
+  nav .sa {
+    text-align: right;
+  }
+  
 }
 
 span.keeptogether {
