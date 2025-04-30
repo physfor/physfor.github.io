@@ -83,6 +83,10 @@ a.cap img {
   border: 0;
 }
 
+.nobul {
+  list-style-type: none;
+}
+
 .katex .base:last-child {
   display: inline;
 }
