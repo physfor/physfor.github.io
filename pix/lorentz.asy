@@ -99,11 +99,9 @@ draw(surface(sur),.5NavyBlue+white);
 }
 
 
-path3 bl=(-a,-2a,0) -- (-a,-2a,-1);
-for (int n = 0; n <= 5; ++n) {
-revolution sur=revolution(((-a,-2a,a)),bl,X,0-15*n,-15-15*n);
-draw(surface(sur),.5NavyBlue+white);
-}
+path3 bl=(-a,-2a,0) -- (-a,-2a,-1) -- arc((-2,-4,2),3,-180,90,-90,90,normal=(-1,0,0))
+-- (-a,-3a,2) -- arc((-2,-4,2),2,-90,90,-180,90,normal=(-1,0,0)) -- cycle;
+draw(surface(bl),.5NavyBlue+white);
 
 
 path3 bl=(a,-2a,0) -- (a,-2a,-1) -- (a,2a,-1) -- (a,2a,0) -- cycle;
@@ -112,7 +110,6 @@ path3 bl=(-a,-2a,0) -- (-a,-2a,-1) -- (-a,2a,-1) -- (-a,2a,0) -- cycle;
 draw(surface(bl),.5NavyBlue+white);
 path3 bl=(a,2a,0) -- (a,2a,-1) -- (-a,2a,-1) -- (-a,2a,0) -- cycle;
 draw(surface(bl),.5NavyBlue+white);
-
 
 
 /////////////////
