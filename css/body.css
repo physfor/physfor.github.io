@@ -64,7 +64,8 @@ a {
    }
 
 a:hover, a:active {
-  color: Brown;
+  background: Brown; /* Цвет фона под ссылкой */ 
+    color: White; /* Цвет ссылки */ 
 }
 
 a img {
