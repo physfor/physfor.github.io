@@ -107,3 +107,17 @@ a.cap img {
 .katex > .katex-html {
 	white-space: normal;
 }
+
+
+svg path {
+fill:inherit;
+stroke:inherit;
+}
+
+.lin:link, .icon-youtube:visited {
+  fill: Brown;
+}
+
+.lin:hover, .icon-youtube:active {
+ fill:White;
+}
