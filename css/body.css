@@ -68,6 +68,12 @@ a:hover, a:active {
     color: White; /* Цвет ссылки */ 
 }
 
+a.he:hover, a.he:active {
+  background: Brown; /* Цвет фона под ссылкой */ 
+  color: White; /* Цвет ссылки */ 
+  display: inline-block;
+}
+
 a img {
   border: 0;
 }
