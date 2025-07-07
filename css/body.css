@@ -122,3 +122,16 @@ stroke:inherit;
 .lin:hover, .icon-youtube:active {
  fill:White;
 }
+
+
+.box {
+  text-align: left;
+  border-radius: 5px;
+  background-color: color-mix(in srgb, Brown 50%, white);
+  padding: 9px;	
+}
+
+.nei {
+  padding: 5px 0;
+}
+
