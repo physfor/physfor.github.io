@@ -127,7 +127,7 @@ stroke:inherit;
 .box {
   text-align: left;
   border-radius: 5px;
-  background-color: color-mix(in srgb, Brown 50%, white);
+  background: color-mix(in hsl, Brown, white 70%);
   padding: 9px;	
 }
 
