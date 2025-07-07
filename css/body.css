@@ -127,8 +127,9 @@ stroke:inherit;
 .box {
   text-align: left;
   border-radius: 5px;
-  background-color: #d29494; /* https://www.w3schools.com/colors/colors_mixer.asp */
+  background-color: brown; /*мешать на https://www.w3schools.com/colors/colors_mixer.asp */
   padding: 9px;	
+  color: white;
 }
 
 .nei {
