@@ -137,11 +137,14 @@ stroke:inherit;
 }
 
 .boxbor {
-border: 1px solid brown; 
-padding: 0px;
-border-radius: 6px;
+  -webkit-box-shadow:inset 0px 0px 0px 1px brown;
+  -moz-box-shadow:inset 0px 0px 0px 1px brown;
+  box-shadow:inset 0px 0px 0px 1px brown;
+  padding: 0px;
+  border-radius: 5px;
+  
 }
 
 .neib {
-  padding: 5px 8px 8px 8px;
+  padding: 5px 9px 9px 9px;
 }
