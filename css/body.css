@@ -136,3 +136,12 @@ stroke:inherit;
   padding: 5px 0;
 }
 
+.boxbor {
+border: 1px solid brown; 
+padding: 0px;
+border-radius: 6px;
+}
+
+.neib {
+  padding: 5px 8px 8px 8px;
+}
