@@ -28,9 +28,11 @@ nav {
 border: 1px solid Brown; padding: 9px;
 }  
 
+
 @media screen and (max-width: 800px) {
   html { padding: 0 9px; }
 }
+
 
 @media all and (max-width: 500px) {
   
@@ -51,6 +53,28 @@ border: 1px solid Brown; padding: 9px;
   }
   
 }
+
+
+@media all and (max-width: 500px) {
+  
+  nav {
+    flex-wrap: wrap;
+  }
+  
+  nav > div {
+    flex-basis: 100%;
+  }
+  
+  nav .ka {
+    text-align: left;
+  }
+
+  nav .sa {
+    text-align: left;
+  }
+  
+}
+
 
 span.keeptogether {
   white-space: nowrap ;
