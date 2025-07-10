@@ -148,3 +148,9 @@ stroke:inherit;
 .neib {
   padding: 5px 9px 9px 9px;
 }
+
+
+ul.nepa li {
+  padding: 5px 0;
+  text-align: left;
+}
