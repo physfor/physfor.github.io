@@ -34,7 +34,7 @@ border: 1px solid Brown; padding: 9px;
 }
 
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 650px) {
   
   nav {
     flex-wrap: wrap;
