@@ -1,5 +1,6 @@
 html { overflow-y: scroll; }
 
+
 body {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -13,16 +14,23 @@ body {
   font-size: 130%;
 }
 
+
 .container {
   margin: 5% auto;
   font-size: 300%;
   }
 
+
 nav {
-  font-size: 120%;
+  margin: 5% 0 0 0;
+  font-size: 110%;
   display: flex;
-  justify-content: space-between; 
+  justify-content: right;
+  flex-wrap: wrap;  
+  text-align: right;
+  gap: 5%;
 }
+
 
 .bor {
 border: 1px solid Brown; padding: 9px;
