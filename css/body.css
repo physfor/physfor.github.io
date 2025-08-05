@@ -209,7 +209,7 @@ h1 {
   font-weight: 400;  
 }
 
-h1 span {
+h1 span, h2 span {
   background-color: rgba(0,0,0, 0.2); /* Цвет фона под */
   
 }
