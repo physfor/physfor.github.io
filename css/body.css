@@ -183,6 +183,25 @@ ul.lef li {
   text-align: left;
 }
 
-h1,h2,h3 {
+
+h1 {
   text-align: left;
+  font-size: 170%;
+  font-weight: 400;  
+}
+
+h1 span {
+  background-color: rgba(0,0,0, 0.2); /* Цвет фона под */
+  
+}
+
+h2 {
+  text-align: left;
+  font-size: 120%;
+  font-weight: 400;
+}
+
+
+.news {
+  margin: 0;
 }
