@@ -103,6 +103,17 @@ a img {
   border: 0;
 }
 
+a.na:link, a.na:visited {
+  color: Brown;
+  background: rgba(165, 42, 42, 0.2); /* Цвет фона под ссылкой */
+}
+
+a.na:hover, a.na:active { 
+  background: Brown; /* Цвет фона под ссылкой */ 
+  color: White; /* Цвет ссылки */   
+}
+
+
 a.cap {
   text-decoration: none;
 }
