@@ -100,9 +100,11 @@ a {
 
 a:hover, a:active {
   background: Brown; /* Цвет фона под ссылкой */ 
-    color: White; /* Цвет ссылки */ 
+  color: White; /* Цвет ссылки */
+  border-radius: 5px;
 }
 
+/* katex подработка */
 a.he:hover, a.he:active {
   background: Brown; /* Цвет фона под ссылкой */ 
   color: White; /* Цвет ссылки */ 
@@ -116,6 +118,7 @@ a img {
 a.na:link, a.na:visited {
   color: Brown;
   background: rgba(165, 42, 42, 0.2); /* Цвет фона под ссылкой */
+  border-radius: 5px;
 }
 
 a.na:hover, a.na:active { 
@@ -211,10 +214,12 @@ h1 {
 
 h1 span, h2 span {
   background-color: rgba(0,0,0, 0.2); /* Цвет фона под */  
+  border-radius: 5px;
 }
 
 h3 span {
   background-color: rgba(0,0,0, 0.1); /* Цвет фона под */  
+  border-radius: 5px;
 }
 
 h2 {
