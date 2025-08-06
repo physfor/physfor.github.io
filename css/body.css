@@ -180,12 +180,9 @@ stroke:inherit;
 }
 
 .boxbor {
-  -webkit-box-shadow:inset 0px 0px 0px 2px gray;
-  -moz-box-shadow:inset 0px 0px 0px 2px gray;
-  box-shadow:inset 0px 0px 0px 2px gray;
+  border: 2px solid gray;
   padding: 0px;
-  border-radius: 5px;
-  
+  border-radius: 5px;  
 }
 
 .neib {
