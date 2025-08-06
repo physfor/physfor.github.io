@@ -219,6 +219,13 @@ h2 {
   margin: 5% 0 3% 0;
 }
 
+h3 {
+  text-align: left;
+  font-size: 110%;
+  font-weight: 400;
+  margin: 4% 0 2% 0;
+}
+
 
 .news {
   margin: 0;
