@@ -33,7 +33,9 @@ nav {
 
 
 .bor {
-border: 1px solid Brown; padding: 9px;
+border: 2px solid gray; 
+padding: 9px;
+border-radius: 5px;
 }  
 
 
