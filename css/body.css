@@ -208,6 +208,10 @@ ul.lef li {
   text-align: left;
 }
 
+.nobul li::marker {
+  content: "";
+}
+
 
 h1 {
   text-align: left;
