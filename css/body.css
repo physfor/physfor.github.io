@@ -200,11 +200,6 @@ ul li {
   margin-bottom: 6px;  
 }
 
-ul li::marker {
-  content: "| ";
-  color: gray;
-}
-
 ul.lef li {
   text-align: left;
 }
