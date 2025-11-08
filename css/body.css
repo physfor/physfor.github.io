@@ -95,6 +95,8 @@ span.keeptogether {
 
 a:link, a:visited {
   color: var(--my-col);
+  border-radius: 5px;
+  border: 2px solid var(--my-col);
 }
 
 a { 
