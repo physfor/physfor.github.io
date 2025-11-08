@@ -95,6 +95,8 @@ span.keeptogether {
 
 a:link, a:visited {
   color: var(--my-col);
+  border-radius: 5px;
+  background-color: rgb(0,71,211,.1); /* Цвет фона под ссылкой */ 
 }
 
 a { 
