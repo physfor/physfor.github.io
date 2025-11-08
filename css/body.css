@@ -168,11 +168,11 @@ fill:inherit;
 stroke:inherit;
 }
 
-.lin:link, .icon-youtube:visited {
+.icon-youtube:link, .icon-youtube:visited {
   fill: var(--my-col);
 }
 
-.lin:hover, .icon-youtube:active {
+.icon-youtube:hover, .icon-youtube:active {
  fill:White;
 }
 
