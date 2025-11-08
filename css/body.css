@@ -1,5 +1,8 @@
 html { overflow-y: scroll; }
 
+:root {
+  --my-col: rgb(0,	71,	211);
+}
 
 body {
   -webkit-hyphens: auto;
@@ -91,7 +94,7 @@ span.keeptogether {
 }
 
 a:link, a:visited {
-  color: Brown;
+  color: var(--my-col);
 }
 
 a { 
@@ -99,14 +102,14 @@ a {
    }
 
 a:hover, a:active {
-  background: Brown; /* Цвет фона под ссылкой */ 
+  background: var(--my-col); /* Цвет фона под ссылкой */ 
   color: White; /* Цвет ссылки */
   border-radius: 5px;
 }
 
 /* katex подработка */
 a.he:hover, a.he:active {
-  background: Brown; /* Цвет фона под ссылкой */ 
+  background: var(--my-col); /* Цвет фона под ссылкой */ 
   color: White; /* Цвет ссылки */ 
   display: inline-block;
 }
@@ -116,13 +119,13 @@ a img {
 }
 
 a.na:link, a.na:visited {
-  color: Brown;
+  color: var(--my-col);
   background: rgba(165, 42, 42, 0.2); /* Цвет фона под ссылкой */
   border-radius: 5px;
 }
 
 a.na:hover, a.na:active { 
-  background: Brown; /* Цвет фона под ссылкой */ 
+  background: var(--my-col); /* Цвет фона под ссылкой */ 
   color: White; /* Цвет ссылки */   
 }
 
@@ -136,7 +139,7 @@ a.cap:link, a.cap:visited {
 }
 
 a.cap:hover, a.cap:active {
-  color: Brown;
+  color: var(--my-col);
 }
 
 a.cap img {
@@ -164,7 +167,7 @@ stroke:inherit;
 }
 
 .lin:link, .icon-youtube:visited {
-  fill: Brown;
+  fill: var(--my-col);
 }
 
 .lin:hover, .icon-youtube:active {
@@ -175,7 +178,7 @@ stroke:inherit;
 .box {
   text-align: left;
   border-radius: 5px;
-  background-color: brown; /*мешать на https://www.w3schools.com/colors/colors_mixer.asp */
+  background-color: var(--my-col); /*мешать на https://www.w3schools.com/colors/colors_mixer.asp */
   padding: 9px;	
   color: white;
 }
