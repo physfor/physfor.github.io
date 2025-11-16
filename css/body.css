@@ -218,7 +218,7 @@ h1 {
   text-align: left;
   font-size: 170%;
   margin-top: 50px;
-  text-shadow: 1px 1px var(--my-col);
+  text-shadow: 1px 1px 3px var(--my-col);
 }
 
 h2 {
